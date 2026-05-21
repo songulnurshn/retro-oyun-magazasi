@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>Sepetim | PixelNostalji</title>
+</head>
+<body>
+
+    <table width="100%" bgcolor="#1e272e" cellpadding="15">
+        <tr>
+            <td><font color="white" size="5"><b>🕹️ PixelNostalji</b></font></td>
+            <td align="right">
+                <a href="../index.html"><font color="white"><b>Anasayfa</b></font></a> &nbsp;&nbsp;
+                <a href="urunler.html"><font color="white"><b>Konsollar & Oyunlar</b></font></a> &nbsp;&nbsp;
+                <a href="sepet.html"><font color="#05c46b"><b>Sepetim</b></font></a> &nbsp;&nbsp;
+                <a href="iletisim.html"><font color="white"><b>İletişim</b></font></a>
+            </td>
+        </tr>
+    </table>
+
+    <center>
+        <br>
+        <h2>Alışveriş Sepetiniz</h2>
+        <br>
+    </center>
+
+    <table width="70%" align="center" border="1" cellpadding="10" cellspacing="0">
+        <tr bgcolor="#eee">
+            <th>Ürün Adı</th>
+            <th>Fiyat</th>
+        </tr>
+        <tr>
+            <td>Klasik Kara Kutu Atari</td>
+            <td>1250 TL</td>
+        </tr>
+        <tr>
+            <td>Super Mario Bros Kaseti</td>
+            <td>350 TL</td>
+        </tr>
+        <tr bgcolor="#f9f9f9">
+            <td align="right"><b>Toplam Tutar:</b></td>
+            <td><b>1600 TL</b></td>
+        </tr>
+    </table>
+
+    <br><br><hr>
+    <center>
+        <p>&copy; 2026 PixelNostalji - Songül Nur Şahin.</p>
+    </center>
+
+</body>
+</html>
