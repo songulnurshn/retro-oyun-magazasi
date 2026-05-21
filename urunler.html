@@ -2,64 +2,77 @@
 <html lang="tr">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Konsollar ve Oyunlar | PixelNostalji</title>
-    <link rel="stylesheet" href="styles/style.css">
 </head>
-<body>
+<body bgcolor="#1a1a2e" text="#ffffff" link="#00f2fe" vlink="#00f2fe">
 
-    <header>
-        <nav class="navbar">
-            <div class="logo">🕹️ PixelNostalji</div>
-            <ul class="nav-links">
-                <li><a href="index.html">Ana Sayfa</a></li>
-                <li><a href="urunler.html" class="active">Konsollar & Oyunlar</a></li>
-                <li><a href="sepet.html">Sepetim</a></li>
-                <li><a href="iletisim.html">İletişim</a></li>
-            </ul>
-        </nav>
-    </header>
+    <table width="100%" bgcolor="#0f0f1a" cellpadding="20" cellspacing="0" style="border-bottom: 3px solid #e94560;">
+        <tr>
+            <td width="30%">
+                <font size="6" color="#e94560"><b>🕹️ PixelNostalji</b></font>
+            </td>
+            <td width="70%" align="right">
+                <a href="index.html" style="text-decoration:none;"><font color="#94a3b8" size="4">Ana Sayfa</font></a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="urunler.html" style="text-decoration:none;"><font color="#e94560" size="4"><b>Konsollar & Oyunlar</b></font></a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="sepet.html" style="text-decoration:none;"><font color="#94a3b8" size="4">Sepetim</font></a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="iletisim.html" style="text-decoration:none;"><font color="#94a3b8" size="4">İletişim</font></a>
+            </td>
+        </tr>
+    </table>
 
-    <main>
-        <section class="products-section">
-            <h2>Satıştaki Retro Ürünler</h2>
-            <div class="product-grid">
-                <div class="product-card">
-                    <img src="https://images.unsplash.com/photo-1531525645387-7f14be1bdbbd?w=500" alt="Kara Kutu Atari">
-                    <h3>Klasik Kara Kutu Atari</h3>
-                    <p class="price">1.250 TL</p>
-                    <a href="detay.html" class="btn-detail">Detayları Gör</a>
-                    <button class="btn-add-cart" onclick="sepeteEkle('Klasik Kara Kutu Atari', 1250)">Sepete Ekle 🛒</button>
-                </div>
-                <div class="product-card">
-                    <img src="https://images.unsplash.com/photo-1529612700005-e35377bf1415?w=500" alt="Retro Gameboy">
-                    <h3>Orijinal Gameboy Color</h3>
-                    <p class="price">2.100 TL</p>
-                    <a href="detay.html" class="btn-detail">Detayları Gör</a>
-                    <button class="btn-add-cart" onclick="sepeteEkle('Gameboy Color', 2100)">Sepete Ekle 🛒</button>
-                </div>
-                <div class="product-card">
-                    <img src="https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?w=500" alt="Super Mario">
-                    <h3>Super Mario Bros Kaseti</h3>
-                    <p class="price">350 TL</p>
-                    <a href="detay.html" class="btn-detail">Detayları Gör</a>
-                    <button class="btn-add-cart" onclick="sepeteEkle('Super Mario Kaseti', 350)">Sepete Ekle 🛒</button>
-                </div>
-                <div class="product-card">
-                    <img src="https://images.unsplash.com/photo-1551103782-8ab07afd45c1?w=500" alt="Retro Arcade">
-                    <h3>Arcade USB Kontrolcü</h3>
-                    <p class="price">850 TL</p>
-                    <a href="detay.html" class="btn-detail">Detayları Gör</a>
-                    <button class="btn-add-cart" onclick="sepeteEkle('Arcade USB Kontrolcü', 850)">Sepete Ekle 🛒</button>
-                </div>
-            </div>
-        </section>
-    </main>
+    <table width="100%" cellpadding="40" cellspacing="0">
+        <tr>
+            <td align="center">
+                <h2><font size="6" color="#ffffff">Satıştaki Retro Ürünler</font></h2>
+                <br><br>
+                
+                <table width="90%" cellpadding="15" cellspacing="15">
+                    <tr>
+                        <td width="25%" bgcolor="#0f0f1a" align="center" valign="top" style="border: 1px solid #252538; border-radius: 12px; padding: 20px;">
+                            <img src="https://images.unsplash.com/photo-1531525645387-7f14be1bdbbd?w=400" width="100%" style="border-radius: 8px;"><br><br>
+                            <h3><font color="#ffffff">Klasik Kara Kutu Atari</font></h3><br>
+                            <font size="5" color="#00f2fe"><b>1.250 TL</b></font><br><br>
+                            <a href="detay.html" style="text-decoration:none;"><font color="#cbd5e1">[ Detayları Gör ]</font></a><br><br>
+                            <button onclick="sepeteEkle('Klasik Kara Kutu Atari', 1250)" style="background-color:#e94560; color:white; border:none; padding:10px 20px; border-radius:6px; font-weight:bold; cursor:pointer; width:100%;">Sepete Ekle 🛒</button>
+                        </td>
 
-    <footer>
-        <p>&copy; 2026 PixelNostalji - Songül Nur Şahin. Tüm Hakları Saklıdır.</p>
-        <p>Web Tasarımı ve İnternet Programlama Dersi Ödev Projesi</p>
-    </footer>
+                        <td width="25%" bgcolor="#0f0f1a" align="center" valign="top" style="border: 1px solid #252538; border-radius: 12px; padding: 20px;">
+                            <img src="https://images.unsplash.com/photo-1529612700005-e35377bf1415?w=400" width="100%" style="border-radius: 8px;"><br><br>
+                            <h3><font color="#ffffff">Orijinal Gameboy Color</font></h3><br>
+                            <font size="5" color="#00f2fe"><b>2.100 TL</b></font><br><br>
+                            <a href="detay.html" style="text-decoration:none;"><font color="#cbd5e1">[ Detayları Gör ]</font></a><br><br>
+                            <button onclick="sepeteEkle('Gameboy Color', 2100)" style="background-color:#e94560; color:white; border:none; padding:10px 20px; border-radius:6px; font-weight:bold; cursor:pointer; width:100%;">Sepete Ekle 🛒</button>
+                        </td>
+
+                        <td width="25%" bgcolor="#0f0f1a" align="center" valign="top" style="border: 1px solid #252538; border-radius: 12px; padding: 20px;">
+                            <img src="https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?w=400" width="100%" style="border-radius: 8px;"><br><br>
+                            <h3><font color="#ffffff">Super Mario Kaseti</font></h3><br>
+                            <font size="5" color="#00f2fe"><b>350 TL</b></font><br><br>
+                            <a href="detay.html" style="text-decoration:none;"><font color="#cbd5e1">[ Detayları Gör ]</font></a><br><br>
+                            <button onclick="sepeteEkle('Super Mario Kaseti', 350)" style="background-color:#e94560; color:white; border:none; padding:10px 20px; border-radius:6px; font-weight:bold; cursor:pointer; width:100%;">Sepete Ekle 🛒</button>
+                        </td>
+
+                        <td width="25%" bgcolor="#0f0f1a" align="center" valign="top" style="border: 1px solid #252538; border-radius: 12px; padding: 20px;">
+                            <img src="https://images.unsplash.com/photo-1551103782-8ab07afd45c1?w=400" width="100%" style="border-radius: 8px;"><br><br>
+                            <h3><font color="#ffffff">Arcade USB Kontrolcü</font></h3><br>
+                            <font size="5" color="#00f2fe"><b>850 TL</b></font><br><br>
+                            <a href="detay.html" style="text-decoration:none;"><font color="#cbd5e1">[ Detayları Gör ]</font></a><br><br>
+                            <button onclick="sepeteEkle('Arcade USB Kontrolcü', 850)" style="background-color:#e94560; color:white; border:none; padding:10px 20px; border-radius:6px; font-weight:bold; cursor:pointer; width:100%;">Sepete Ekle 🛒</button>
+                        </td>
+                    </tr>
+                </table>
+                
+            </td>
+        </tr>
+    </table>
+
+    <table width="100%" bgcolor="#0f0f1a" cellpadding="25" cellspacing="0" style="border-top: 1px solid #1a1a2e;">
+        <tr>
+            <td align="center">
+                <font color="#64748b" size="3">&copy; 2026 PixelNostalji - Songül Nur Şahin. Tüm Hakları Saklıdır.</font>
+            </td>
+        </tr>
+    </table>
 
     <script src="scripts/myscript.js"></script>
 </body>
