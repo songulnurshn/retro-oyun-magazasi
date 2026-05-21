@@ -29,7 +29,7 @@
                 <p><font color="#94a3b8">Siparişinizi tamamlamak için lütfen aşağıdaki alanları doldurunuz.</font></p>
                 <br><br>
                 
-                <form id="order-form" onsubmit="return siparisiOnayla(event)">
+               <form id="order-form" onsubmit="alert('Siparişiniz başarıyla oluşturuldu! 🎉 En kısa sürede kargoya verilecektir.'); localStorage.removeItem('sepet'); window.location.href='index.html'; return false;">
                     <font size="4" color="#cbd5e1">Adınız Soyadınız:</font><br>
                     <input type="text" id="order-name" required style="width:100%; padding:12px; background-color:#1a1a2e; border:1px solid #252538; border-radius:6px; color:white; margin-top:5px;"><br><br>
                     
