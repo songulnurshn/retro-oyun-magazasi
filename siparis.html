@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>Sipariş Oluştur | PixelNostalji</title>
+</head>
+<body bgcolor="#1a1a2e" text="#ffffff" link="#00f2fe" vlink="#00f2fe">
+
+    <table width="100%" bgcolor="#0f0f1a" cellpadding="20" cellspacing="0" style="border-bottom: 3px solid #e94560;">
+        <tr>
+            <td width="30%">
+                <font size="6" color="#e94560"><b>🕹️ PixelNostalji</b></font>
+            </td>
+            <td width="70%" align="right">
+                <a href="index.html" style="text-decoration:none;"><font color="#cbd5e1" size="4">Ana Sayfa</font></a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="urunler.html" style="text-decoration:none;"><font color="#cbd5e1" size="4">Konsollar & Oyunlar</font></a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="sepet.html" style="text-decoration:none;"><font color="#cbd5e1" size="4">Sepetim</font></a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="iletisim.html" style="text-decoration:none;"><font color="#cbd5e1" size="4">İletişim</font></a>
+            </td>
+        </tr>
+    </table>
+
+    <br><br><br>
+    <table width="40%" align="center" bgcolor="#0f0f1a" cellpadding="40" cellspacing="0" style="border: 1px solid #252538; border-radius: 16px;">
+        <tr>
+            <td>
+                <h2><font color="#ffffff" size="6">Teslimat Bilgileri</font></h2>
+                <br>
+                <p><font color="#94a3b8">Siparişinizi tamamlamak için lütfen aşağıdaki alanları doldurunuz.</font></p>
+                <br><br>
+                
+                <form id="order-form" onsubmit="return siparisiOnayla(event)">
+                    <font size="4" color="#cbd5e1">Adınız Soyadınız:</font><br>
+                    <input type="text" id="order-name" required style="width:100%; padding:12px; background-color:#1a1a2e; border:1px solid #252538; border-radius:6px; color:white; margin-top:5px;"><br><br>
+                    
+                    <font size="4" color="#cbd5e1">Telefon Numaranız:</font><br>
+                    <input type="tel" id="order-phone" required style="width:100%; padding:12px; background-color:#1a1a2e; border:1px solid #252538; border-radius:6px; color:white; margin-top:5px;"><br><br>
+                    
+                    <font size="4" color="#cbd5e1">Teslimat Adresi:</font><br>
+                    <textarea id="order-address" rows="4" required style="width:100%; padding:12px; background-color:#1a1a2e; border:1px solid #252538; border-radius:6px; color:white; margin-top:5px; font-family:sans-serif;"></textarea><br><br>
+                    
+                    <input type="submit" value="Siparişi Onayla ve Bitir ✔️" style="background-color:#00f2fe; color:#1a1a2e; border:none; padding:14px; width:100%; border-radius:6px; font-weight:bold; font-size:16px; cursor:pointer;">
+                </form>
+            </td>
+        </tr>
+    </table>
+
+    <br><br><br>
+    <table width="100%" bgcolor="#0f0f1a" cellpadding="25" cellspacing="0" style="border-top: 1px solid #1a1a2e;">
+        <tr><td align="center"><font color="#64748b" size="3">&copy; 2026 PixelNostalji</font></td></tr>
+    </table>
+
+    <script src="scripts/myscript.js"></script>
+</body>
+</html>
