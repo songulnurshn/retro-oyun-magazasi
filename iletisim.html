@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İletişim | PixelNostalji</title>
+    <link rel="stylesheet" href="../styles/style.css">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <div class="logo">🕹️ PixelNostalji</div>
+            <ul class="nav-links">
+                <li><a href="../index.html">Ana Sayfa</a></li>
+                <li><a href="urunler.html">Konsollar & Oyunlar</a></li>
+                <li><a href="sepet.html">Sepetim</a></li>
+                <li><a href="iletisim.html" class="active">İletişim</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="form-container">
+            <h2>Bizimle İletişime Geçin</h2>
+            <form id="contact-form" onsubmit="return formuKontrolEt(event)">
+                <div class="form-group">
+                    <label for="name">Adınız Soyadınız:</label>
+                    <input type="text" id="name">
+                </div>
+                <div class="form-group">
+                    <label for="email">E-posta Adresiniz:</label>
+                    <input type="email" id="email">
+                </div>
+                <div class="form-group">
+                    <label for="message">Mesajınız:</label>
+                    <textarea id="message" rows="5"></textarea>
+                </div>
+                <button type="submit" class="btn-submit">Mesajı Gönder</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 PixelNostalji - Songül Nur Şahin. Tüm Hakları Saklıdır.</p>
+        <p>Web Tasarımı ve İnternet Programlama Dersi Ödev Projesi</p>
+    </footer>
+
+    <script src="../scripts/myscript.js"></script>
+</body>
+</html>
