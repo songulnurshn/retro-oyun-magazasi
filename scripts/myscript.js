@@ -38,26 +38,25 @@ function sepetiTemizle() {
     location.reload();
 }
 
-// Sipariş Form Alanını Gösterme
-function siparisFormunuAc() {
+// Sipariş Sayfasına Yönlendirme Kontrolü
+function siparisSayfasinaGit() {
     let sepet = JSON.parse(localStorage.getItem('sepet')) || [];
     if (sepet.length === 0) {
         alert("Sepetiniz boşken sipariş oluşturamazsınız! ❌");
         return;
     }
-    document.getElementById('siparis-alani').style.display = 'block';
-    window.scrollTo(0, document.body.scrollHeight);
+    // Sepet doluysa yeni sipariş sayfasına yönlendir
+    window.location.href = "siparis.html";
 }
 
 // Siparişi Onaylama ve Bitirme
 function siparisiOnayla(event) {
     event.preventDefault();
-    
     const isim = document.getElementById('order-name').value;
     
     alert("Teşekkürler " + isim + "! 🎉\nSiparişiniz başarıyla oluşturuldu.\nEn kısa sürede kargoya verilecektir.");
     
-    // Sepeti sıfırla ve sayfayı yenile
+    // Sepeti tamamen sıfırla ve ana sayfaya fırlat
     localStorage.removeItem('sepet');
     window.location.href = "index.html";
 }
